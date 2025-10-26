@@ -3,6 +3,7 @@ import path from "path";
 import Image from "next/image";
 import { ProfileData } from "@/app/types/profile";
 import { getIconColor } from "@/app/utils/profile";
+import { ShareButton, CopyLinkButton } from "@/app/components/ClientButtons";
 
 export default function Home() {
   const filePath = path.join(process.cwd(), "app/data/profile.json");

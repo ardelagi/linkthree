@@ -1,0 +1,53 @@
+{
+  "name": "Avo Rahmadani",
+  "field": "Web Developer • Discord Developer and Moderator • VPS Enthusiast • Creator",
+  "desc": "Membangun website modern, mengelola server VPS, dan berbagi konten kreatif tentang teknologi dan otomasi.",
+  "photo": "/img/logo.jpg",
+  "links": [
+    {
+      "icon": "fa-github",
+      "name": "GitHub",
+      "url": "https://github.com/ardelagi"
+    },
+    {
+      "icon": "fa-youtube",
+      "name": "YouTube",
+      "url": "https://youtube.com/@ardelagii"
+    },
+    {
+      "icon": "fa-instagram",
+      "name": "Instagram",
+      "url": "https://instagram.com/mas.avoo"
+    },
+    {
+      "icon": "fa-tiktok",
+      "name": "TikTok",
+      "url": "https://www.tiktok.com/@ardelagii"
+    },
+    {
+      "icon": "fa-discord",
+      "name": "Discord",
+      "url": "https://discord.com/users/729602261508161636"
+    },
+    {
+      "icon": "fa-whatsapp",
+      "name": "WhatsApp",
+      "url": "https://wa.me/6285868365955"
+    },
+    {
+      "icon": "fa-roblox",
+      "name": "Roblox",
+      "url": "https://www.roblox.com/users/12345678/profile"
+    },
+    {
+      "icon": "fa-globe",
+      "name": "Website",
+      "url": "https://ardelagi.web.id"
+    },
+    {
+      "icon": "fa-envelope",
+      "name": "Email",
+      "url": "mailto:ardetmg031@gmail.com"
+    }
+  ]
+}

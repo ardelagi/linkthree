@@ -22,3 +22,28 @@ body {
   color: white;
   min-height: 100vh;
 }
+
+/* Animasi smooth untuk transisi */
+@layer utilities {
+  .transition-smooth {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+
+/* Custom scrollbar untuk browser yang support */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}

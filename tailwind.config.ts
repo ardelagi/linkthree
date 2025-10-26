@@ -14,6 +14,7 @@ const config: Config = {
       },
       animation: {
         blob: "blob 7s infinite",
+        shimmer: "shimmer 3s infinite",
       },
       keyframes: {
         blob: {
@@ -28,6 +29,14 @@ const config: Config = {
           },
           "100%": {
             transform: "translate(0px, 0px) scale(1)",
+          },
+        },
+        shimmer: {
+          "0%": {
+            transform: "translateX(-100%)",
+          },
+          "100%": {
+            transform: "translateX(100%)",
           },
         },
       },

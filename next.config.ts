@@ -1,7 +1,18 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**',
+      },
+    ],
+    unoptimized: process.env.NODE_ENV === 'development',
+  },
+  // Optimasi untuk production
+  reactStrictMode: true,
+  swcMinify: true,
 };
 
 export default nextConfig;

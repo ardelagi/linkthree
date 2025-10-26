@@ -8,11 +8,9 @@ const nextConfig: NextConfig = {
         hostname: '**',
       },
     ],
-    unoptimized: process.env.NODE_ENV === 'development',
   },
-  // Optimasi untuk production
+  // React strict mode sudah default di Next.js 16
   reactStrictMode: true,
-  swcMinify: true,
 };
 
 export default nextConfig;

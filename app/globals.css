@@ -18,32 +18,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0a0f1e;
+  background: #020617;
   color: white;
   min-height: 100vh;
 }
 
-/* Animasi smooth untuk transisi */
 @layer utilities {
-  .transition-smooth {
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
   }
 }
 
-/* Custom scrollbar untuk browser yang support */
+/* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #1e293b;
+  background: #0f172a;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #475569;
+  background: #334155;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #64748b;
+  background: #475569;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Text selection */
+::selection {
+  background: #0ea5e9;
+  color: white;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #0ea5e9;
+  outline-offset: 2px;
 }

@@ -206,13 +206,6 @@ export default function Home() {
         </div>
       </div>
 
-      {/* Add CSS for shimmer animation */}
-      <style jsx>{`
-        @keyframes shimmer {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(100%); }
-        }
-      `}</style>
     </main>
   );
 }
